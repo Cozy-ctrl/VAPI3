@@ -2,7 +2,8 @@ import { CreateAssistantDTO } from "@vapi-ai/web/dist/api";
 import { shows } from "../data/shows";
 
 export const assistant: CreateAssistantDTO | any = {
-  name: "Paula-broadway",
+  id: "2b827c7b-4bf5-4531-956e-613571067ffa",
+  name: "Paula-broadway", 
   model: {
     provider: "openai",
     model: "gpt-3.5-turbo",
